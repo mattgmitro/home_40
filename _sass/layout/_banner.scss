@@ -10,7 +10,7 @@
 		@include vendor('align-items', 'center');
 		@include vendor('background-image', 'url("../images/banner.jpg")');
 		@include vendor('display', 'flex');
-		@include padding(4em, 0, (2em, 0, 0, 0));
+		@include padding(4em, 0, (1em, 0, 0, 0));
 		background-attachment: fixed;
 		background-position: center;
 		background-repeat: no-repeat;
@@ -95,9 +95,9 @@
 		}
 
 		&.major {
-			height: 10vh;
-			min-height: 10em;
-			max-height: 30em;
+			height: 75vh;
+			min-height: 30em;
+			max-height: 50em;
 
 			&.alt {
 				  opacity: 0.75;
