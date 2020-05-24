@@ -31,7 +31,7 @@
 			background-color: _palette(bg);
 			content: '';
 			display: block;
-			height: 50%;
+			height: 100%;
 			left: 0;
 			opacity: 0.85;
 			position: absolute;
@@ -95,7 +95,7 @@
 		}
 
 		&.major {
-			height: 75vh;
+			height: 40vh;
 			min-height: 30em;
 			max-height: 50em;
 
